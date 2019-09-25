@@ -1,0 +1,120 @@
+Dashboard | Refer Now | Help | Profile / Logout
+logo logo
+
+PRIZES
+CONTEST DETAILS
+DASHBOARD
+CERTIFICATES
+TERMS & CONDITIONS
+REFER NOW
+SCHEDULE
+ABOUT CAPGEMINI INDIA
+Data Science Hackathon
+Instructions Help
+
+Time:05 days and 01:01:33/8 days
+Data Science
+InterstellarX Inc (IXI) is a company engaged in providing Strategy, Technology, Data sciences and Creative Design services to large global clients.
+
+The core business entails revenue generation by providing the right resources to clients, across the world, for specific projects, based on service requirements.
+
+Problem Statement
+
+One of the most critical business compulsions as well as challenges for IXI, is to manage their People Supply Chain – by mapping the Demand for resources (A resource is tagged by metadata such as primary skillset, location, qualification and experience level etc See attached Demand.xls) to the Net Supply of resources (from various Internal and External hiring channels, keeping attrition in view).
+
+IXI maintains, and periodically replenishes a Bench (Inventory) of resources depending upon forecasted demand for the next few quarters. There is a steep cost constraint associated with maintaining this bench (On average $685 per person per month) and hence the company needs to ensure demand forecast is as accurate as possible, so Supply can be planned accordingly. (Maintaining a bench implies absorbing the cost of a resource who is not billable, and hence is an unproductive cost to the company till he/she is allocated to a billable project)
+
+You are the lead data scientist for a central analytics team that has been assigned the task of managing this Demand and Supply Equilibrium by forecasting Demand with a 90% accuracy rate, and then optimizing Supply to meet the forecasted demand.
+
+Additionally, company leadership wants to build a machine learning based front-end application that allows top management to change variables and see how that affects demand-supply and consequently the Profits and losses for the company.
+
+You need to: 
+1.	Build a Predictive Demand Model – Can be trend/time series based OR causal. Provide a reason for choosing the one that you use. 
+2.	Basis n+2 month forecasted demand above, plan the optimized supply needed per month for the next 12 months. 
+3.	Based on the associated costs constraints given in Table 1 below, create a simple simulation that showcases the Net loss of business and/or Net additional cost if variable factors are changed and demand and supply changes as a consequence.
+
+Table 1: Points/constraints to consider, when planning the Optimized Supply for a particular month:
+Supply
+Supply needs to be planned 2 months in advance, hence month N supply needs to be mapped to month N+2 demand forecast i.e Supply (N) = Demand (N+2)
+In any month if Demand exceeds Supply, the estimated per resource, per month loss of business revenue to the company is $900. (This is not a cash loss but an Opportunity Cost. Accordingly assume $900 per month is also the average revenue for a billable resource)
+Total budget for maintaining the Bench for the current year is $5.76 Mn.
+Average cost per resource per month is $685.
+Current Bench strength is 400, implying that annualized Bench budget consumption is at $3.288 Mn on day 1 of the year.
+End of year average Bench cost cannot exceed total budget of $5,76 Mn.
+Assume Average annual attrition of 20% of total headcount
+Total headcount at the beginning of the year is 10000 and cannot exceed 12000 at the end of the year. Assume that everyone who is not on Bench is a billable/billed resource.
+Assume you are starting this project at the beginning of the year.
+Total Headcount at a point of time = Bench + New External Hires – Attrition
+Assume there are only 2 supply channels:
+1)	Internal Bench available immediately (Preferable if a match is found)
+2)	External Hire available after a 2 month lag 
+Assume that once billed a resource stays with the same account forever and does not come back into the bench or move to any other project
+While having a strong bench ensure the least loss of business, these losses are notional and not real losses. In contrast, if demand falls short the company has to incur the additional resource costs till such time that excess bench can be placed in a billing role. Hence there is a preference for keeping the bench minimal and optimized to meet the certain demand.
+Assume there are no other associated costs
+Notes:
+1)	For all models ensure training and testing sets are divided in an 80:20 split
+2)	Clearly state all assumptions and the rationale for selecting the algorithm you have used to build a model.
+3)	Explain your results, with a view to helping a non-technical person understand all insights.
+4)	Demonstrate accuracy of both training set as well as Out-of-Sample tests.
+5)	Development environment on R/Python is acceptable.
+
+Data set
+Download the sheet here containing Headcount and Demand Trend Last of last year.
+
+In case if link is not working then copy this link and paste in new tab. https://drive.google.com/file/d/1CdNtdxXVus_mWUiEIUdA2jTz1jOC0Yfh/view
+
+Judging Criteria
+You will be judged on your proficiency in Machine Learning, Analytics, Strategic Approach to the problem and finally presentation of your output.
+
+Deliverables
+•	Source code of all three tasks along with training data and verification instructions
+•	Presentation of strategic approach and your output
+
+Expected Deliverables
+Upload Files
+Source code of all three tasks along with training data and verification instructions.
+Drag and drop or upload your submission file below
+
+Upload File
+
+ 
+
+Presentation of strategic approach and your output. *
+Drag and drop or upload your submission file below
+
+Upload File
+
+ 
+
+ 
+
+   
+Contest
+Coding
+Adobe AEM
+Hybris
+Salesforce
+Azure
+Data science
+Cloud Native
+SailPoint
+PING Identity
+Full Stack
+Embedded Systems
+Tech Aptitude
+About Capgemini India
+Jobs at Capgemini India
+Prizes
+Referral Leaderboard
+Referral Guidelines
+Privacy Policy
+Social Media Guidelines
+* Contest Terms and Conditions
+Finale
+Refer Now
+Powered by -  logo
+
+© 2018 Capgemini. All rights reserved.
+
+logo
+
